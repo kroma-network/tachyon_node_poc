@@ -1,0 +1,31 @@
+{
+  "name": "tachyon_node_poc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "files": [
+    "src/lib/darwin/arm64/tachyon.node",
+    "src/lib/linux/x86_64/tachyon.node",
+    "src/index.js",
+    "LICENSE",
+    "LICENSE-APACHE.arkworks-rs",
+    "LICENSE-MIT.arkworks-rs",
+    "LICENSE.chromium"
+  ],
+  "author": "The Tachyon Authors <tachyon-discuss@kroma.network>",
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "keywords": [
+    "zksnark",
+    "cryptography"
+  ],
+  "homepage": "https://github.com/kroma-network/tachyon",
+  "bugs": "https://github.com/kroma-network/tachyon/issues",
+  "license": "(MIT OR APACHE OR BSD-3 Clause)"
+}
